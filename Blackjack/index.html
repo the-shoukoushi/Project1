@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Casino BLACKJACK Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div>
+            <div class="game">
+                <h1>BLACKJACK Game</h1>
+                <div id="message">Press Start to play</div>
+                <div class="game-body">
+                    <div id="start">
+                        <button id="btnstart" type="button" onclick="Start()" class="btn">Start Game</button>
+                    </div>
+                    <div class="total">Total $<span id="dollars">500</span><br>Bet Amount $<input type="number"
+                            id="mybet" value="5" min="1" max="500"><button id="maxbet" type="button" onclick="maxbet()"
+                            class="btn">Go
+                            All
+                            In</button>
+                    </div>
+                    <div id="output">
+                        Dealer's Hand : <span id="dValue"></span>
+                        <div id="dealerHolder"></div>
+                        Player's Hand : <span id="pValue"></span>
+                        <div id="playerHolder"></div>
+                        <div id="myactions">
+                            <button id="btnhold" type="button" onclick="cardAction('hold')" class="btn">Hold</button>
+                            <button id="btnhit" type="button" onclick="cardAction('hit')" class="btn">Hit</button>
+                            <button id="btndouble" type="button" onclick="cardAction('double')"
+                                class="btn">Double</button>
+                        </div>
+                        <div>
+                            <button id="btndeal" type="button" onclick="dealNew()" class="btn">Deal</button>
+                        </div>
+                    </div>
+                </div>
+                <script src="code.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
