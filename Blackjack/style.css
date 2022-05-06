@@ -1,0 +1,155 @@
+#output {
+    font-size: 1.5em;
+  }
+  
+  #btndeal{
+    display: none;
+  }
+  #myactions{
+    display: none;
+  }
+  
+  .game{
+    width: 1300px;
+    border: solid 7px darkgreen;
+    margin: 0 auto;
+    background-color: darkseagreen;
+    border-radius: 4px;
+    height: 900px;
+  }
+
+  .game h1{
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+    color:white;
+  }
+
+  
+
+  .btn {
+    border-radius: 50px;
+    padding: 20px;
+    color: whitesmoke;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+    font: normal 700 24px/1 "Calibri", sans-serif;
+    
+  }
+  
+  #cover {
+    height: 162px;
+    width: 120px;
+    background-color: maroon;
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid black;
+    padding: 3px;
+  }
+  
+  .icard {
+    height: 162px;
+    width: 120px;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    display: inline-block;
+    font-family: 'Lato';
+  }
+  
+  .top-card {
+    font-size: 30px;
+    line-height: 20px;
+    left: 2px;
+    top: 2px;
+  }
+  
+  .content-card {
+    text-align: center;
+    font-size: 70px;
+  }
+  
+  .bottom-card {
+    font-size: 30px;
+    line-height: 20px;
+    right: 2px;
+    bottom: 2px;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+  }
+  
+  .clubs, .spades {
+    color: black;
+  }
+  
+  .hearts, .diamonds {
+    color: red;
+  }
+  
+  .hearts .suit::after {
+    content: '\2665';
+  }
+  
+  .diamonds .suit::after {
+    content: '\2666';
+  }
+  
+  .spades .suit::after {
+    content: '\2660';
+  }
+  
+  .clubs .suit::after {
+    content: '\2663';
+  }
+  
+  #dealerHolder, #playerHolder {
+    height: 180px;
+    width: 500px;
+  }
+  
+  #message {
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #btnhold {
+    background-color: burlywood;
+  }
+  
+  #btnhit {
+    background-color: red;
+  }
+  
+  #btndouble {
+    background-color: blue;
+  }
+  
+  #btndeal {
+    background-color: darkgray;
+    font-size: 50px;
+  }
+  
+  #maxbet {
+    background-color: crimson;
+    font-size: 16px;
+  }
+  
+  #btnstart {
+    background-color: black;
+  }
+  
+  #mybet {
+    font-size: 30px;
+  }
+  
+  .total {
+    font-size: 30px;
+  }
